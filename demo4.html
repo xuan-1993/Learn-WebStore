@@ -1,0 +1,34 @@
+<!--margin & padding-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .box1,.box2{
+            width:100px;
+            height:200px;
+            border: red 2px solid;
+            float:left;
+        }
+
+        .box1{
+            /*边框位置向右运行*/
+            margin-right: 20px;
+        }
+
+        .box2{
+            box-sizing: border-box;
+            /*边框开始向上走*/
+            padding-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box1"></div>
+<div class="box2"></div>
+
+</body>
+</html>
