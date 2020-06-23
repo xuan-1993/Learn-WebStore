@@ -1,0 +1,63 @@
+<!--
+文本属性：
+1)P标签的属性
+        text-align 对齐方式
+        text-indent 首行缩进
+        line-height：设置文本的行高
+        border 颜色 粗细 属性 （边框solid）
+        list-style : 选择的样式
+2)a标签
+a:link 没有访问的时候
+a:hover 鼠标放上去
+a;visited 访问过后的状态
+
+3）
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            border:#ff0033 2px dashed;
+            width: 300px;
+            height: 40px;
+            /*line-height:40px;*/
+            text-indent: 40px;
+            text-align: center;
+        }
+        a:link{
+            color:red;
+        }
+        a:hover{
+            font-size:50px;
+            font-weight:bold;
+            color:black;
+        }
+        a:visited{
+            color:black;
+        }
+        ul{
+            list-style:none; //前面的黑色点点
+        }
+    </style>
+</head>
+<body>
+<p>aaaaa</p>
+<a href="#">bx</a>
+<ul>
+    <li>我是什么1</li>
+    <li>我是什么2</li>
+    <li>我是什么3</li>
+    <li>我是什么4</li>
+    <li>我是什么5</li>
+    <li>我是什么6</li>
+    <li>我是什么7</li>
+    <li>我是什么8</li>
+    <li>我是什么9</li>
+    <li>我是什么10</li>
+</ul>
+</body>
+</html>

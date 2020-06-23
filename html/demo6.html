@@ -1,0 +1,35 @@
+<!--
+声明：
+px:像素px
+color:16进制  RGB white
+选择器：指定标签样式设置
+id 选择器：id 不可相同，#来定义
+类选择器：class 可以一致,以“.”开头来定义
+标签选择器：比如p标签
+属性选择器：标签里的属性类型用中括号框起来
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #p1,p2{color:red;}
+        /*.c1,a,small{
+            color =#fd0043;
+            font-size: 23px;
+            font-weight: hold;
+        }*/
+    </style>
+</head>
+<body>
+    <p id="p1">我是一个P1</p>
+    <p id="p2">我是一个P2</p>
+<hr>
+    <p class="c1">我是一个P3</p>
+    <p class="c1">我是一个P4</p>
+<hr>
+  <small>你是谁</small>
+    <a href="">你是哪个</a>
+</body>
+</html>
